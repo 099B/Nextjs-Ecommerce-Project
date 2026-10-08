@@ -71,11 +71,11 @@ const Header = () => {
           <div className="xl:w-auto flex-col sm:flex-row w-full flex sm:justify-between sm:items-center gap-5 sm:gap-10">
             <Link className="flex-shrink-0 flex items-center gap-3" href="/">
               {storeSettings?.logo_url && (
-                <Image
+                <img
                   src={storeSettings.logo_url}
                   alt={storeSettings?.store_name || "aziziphone"}
-                  width={150}
-                  height={40}
+                  width="150"
+                  height="40"
                   className="w-auto h-auto max-h-[40px] max-w-[150px] object-contain"
                 />
               )}
