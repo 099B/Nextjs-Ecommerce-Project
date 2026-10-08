@@ -73,17 +73,15 @@ const Header = () => {
               {storeSettings?.logo_url && (
                 <Image
                   src={storeSettings.logo_url}
-                  alt={storeSettings?.store_name || "Logo"}
+                  alt={storeSettings?.store_name || "aziziphone"}
                   width={150}
                   height={40}
                   className="w-auto h-auto max-h-[40px] max-w-[150px] object-contain"
                 />
               )}
-              {storeSettings?.store_name && (
-                <span className="text-xl font-bold inline-block text-dark">
-                  {storeSettings.store_name}
-                </span>
-              )}
+              <span className="text-xl font-bold inline-block text-dark">
+                aziziphone
+              </span>
             </Link>
 
             <div className="max-w-[475px] w-full">
