@@ -2,6 +2,9 @@ import { Product } from "@/types/product";
 const shopData: Product[] = [
   {
     title: "Havit HV-G69 USB Gamepad",
+    title_en: "Havit HV-G69 USB Gamepad",
+    title_fr: "Havit HV-G69 USB Gamepad",
+    title_ar: "Havit HV-G69 USB Gamepad",
     reviews: 15,
     price: 59.0,
     discountedPrice: 29.0,
@@ -15,6 +18,9 @@ const shopData: Product[] = [
   },
   {
     title: "iPhone 14 Plus , 6/128GB",
+    title_en: "iPhone 14 Plus , 6/128GB",
+    title_fr: "iPhone 14 Plus , 6/128GB",
+    title_ar: "iPhone 14 Plus , 6/128GB",
     reviews: 5,
     price: 899.0,
     discountedPrice: 99.0,
@@ -28,6 +34,9 @@ const shopData: Product[] = [
   },
   {
     title: "Apple iMac M1 24-inch 2021",
+    title_en: "Apple iMac M1 24-inch 2021",
+    title_fr: "Apple iMac M1 24-inch 2021",
+    title_ar: "Apple iMac M1 24-inch 2021",
     reviews: 5,
     price: 59.0,
     discountedPrice: 29.0,
@@ -41,6 +50,9 @@ const shopData: Product[] = [
   },
   {
     title: "MacBook Air M1 chip, 8/256GB",
+    title_en: "MacBook Air M1 chip, 8/256GB",
+    title_fr: "MacBook Air M1 chip, 8/256GB",
+    title_ar: "MacBook Air M1 chip, 8/256GB",
     reviews: 6,
     price: 59.0,
     discountedPrice: 29.0,
@@ -54,6 +66,9 @@ const shopData: Product[] = [
   },
   {
     title: "Apple Watch Ultra",
+    title_en: "Apple Watch Ultra",
+    title_fr: "Apple Watch Ultra",
+    title_ar: "Apple Watch Ultra",
     reviews: 3,
     price: 99.0,
     discountedPrice: 29.0,
@@ -67,6 +82,9 @@ const shopData: Product[] = [
   },
   {
     title: "Logitech MX Master 3 Mouse",
+    title_en: "Logitech MX Master 3 Mouse",
+    title_fr: "Logitech MX Master 3 Mouse",
+    title_ar: "Logitech MX Master 3 Mouse",
     reviews: 15,
     price: 59.0,
     discountedPrice: 29.0,
@@ -80,6 +98,9 @@ const shopData: Product[] = [
   },
   {
     title: "Apple iPad Air 5th Gen - 64GB",
+    title_en: "Apple iPad Air 5th Gen - 64GB",
+    title_fr: "Apple iPad Air 5th Gen - 64GB",
+    title_ar: "Apple iPad Air 5th Gen - 64GB",
     reviews: 15,
     price: 59.0,
     discountedPrice: 29.0,
@@ -93,6 +114,9 @@ const shopData: Product[] = [
   },
   {
     title: "Asus RT Dual Band Router",
+    title_en: "Asus RT Dual Band Router",
+    title_fr: "Asus RT Dual Band Router",
+    title_ar: "Asus RT Dual Band Router",
     reviews: 15,
     price: 59.0,
     discountedPrice: 29.0,

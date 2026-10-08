@@ -7,7 +7,6 @@ import { AppDispatch } from "@/redux/store";
 import { updateQuickView } from "@/redux/features/quickView-slice";
 import { addItemToCart } from "@/redux/features/cart-slice";
 import Image from "next/image";
-import { addItemToWishlist } from "@/redux/features/wishlist-slice";
 import { useTranslation } from "@/contexts/TranslationContext";
 import { updateproductDetails } from "@/redux/features/product-details";
 
@@ -26,6 +25,8 @@ const SingleItem = ({ item }: { item: Product }) => {
     dispatch(
       addItemToCart({
         ...item,
+        title: item[`title_${locale}` as keyof Product] as string || item.title_en,
+        discountedPrice: item.discountedPrice ?? item.price,
         quantity: 1,
       })
     );

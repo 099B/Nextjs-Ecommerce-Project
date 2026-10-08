@@ -35,6 +35,8 @@ const QuickViewModal = () => {
     dispatch(
       addItemToCart({
         ...product,
+        title: product[`title_${locale}` as keyof typeof product] as string || product.title_en,
+        discountedPrice: product.discountedPrice ?? product.price,
         quantity,
       })
     );
