@@ -13,15 +13,16 @@ L.Icon.Default.mergeOptions({
 });
 
 const locations = [
-  { id: 1, name: "Shop Downtown", lat: 33.5731, lng: -7.5898 },
-  { id: 2, name: "Shop Mall", lat: 33.585, lng: -7.632 },
-  { id: 3, name: "Shop Marina", lat: 33.605, lng: -7.620 },
+  { id: 1, name: "AZIZI PHONE CENTER", lat: 34.2612967, lng: -6.5844379 },
+  { id: 2, name: "AZIZI PHONE II", lat: 34.2607633, lng: -6.590042 },
+  { id: 3, name: "AZIZI PHONE 3", lat: 34.2589887, lng: -6.5843526 },
+  { id: 4, name: "AZIZI PHONE 4", lat: 34.2612242, lng: -6.5928359 },
 ];
 
 const MapComponent = () => {
   return (
     <div style={{ height: "400px", width: "100%", borderRadius: "0.5rem", overflow: "hidden" }}>
-      <MapContainer center={[33.58, -7.6]} zoom={12} scrollWheelZoom={false} style={{ height: "100%", width: "100%", zIndex: 1 }}>
+      <MapContainer center={[34.2605, -6.5880]} zoom={14} scrollWheelZoom={false} style={{ height: "100%", width: "100%", zIndex: 1 }}>
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
