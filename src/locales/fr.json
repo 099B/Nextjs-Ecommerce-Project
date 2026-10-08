@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "shop": "Boutique",
+    "categories": "Catégories",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "header": {
+    "search_placeholder": "Rechercher..."
+  },
+  "products": {
+    "categories": "Catégories",
+    "all_categories": "Toutes les catégories",
+    "latest": "Derniers produits",
+    "best_selling": "Meilleures ventes",
+    "old": "Anciens produits"
+  },
+  "headings": {
+    "categories": "Catégories",
+    "browse_by_category": "Parcourir par catégorie",
+    "this_weeks": "Cette semaine",
+    "new_arrivals": "Nouveautés",
+    "best_sellers": "Meilleures Ventes",
+    "our_shops": "Nos Magasins",
+    "find_us_locations": "Retrouvez-nous à ces emplacements.",
+    "this_month": "Ce mois-ci"
+  },
+  "buttons": {
+    "buy_now": "Acheter maintenant",
+    "grab_now": "Saisir maintenant",
+    "add_to_cart": "Ajouter au panier",
+    "view_all": "Voir tout"
+  },
+  "hero": {
+    "limited_time_offer": "offre à durée limitée"
+  },
+  "checkout": {
+    "success_title": "Succès !",
+    "success_message": "Nous vous contacterons bientôt concernant votre commande.",
+    "checkout_title": "Caisse",
+    "your_order": "Votre Commande",
+    "product": "Produit",
+    "subtotal": "Sous-total",
+    "delivery_fee": "Frais de livraison",
+    "total": "Total",
+    "processing": "Traitement...",
+    "process_to_checkout": "Passer à la caisse",
+    "cart_empty": "Votre panier est vide.",
+    "fill_required": "Veuillez remplir tous les champs obligatoires.",
+    "other_notes": "Autres remarques (facultatif)",
+    "notes_placeholder": "Remarques sur votre commande, ex: notes spéciales pour la livraison."
+  },
+  "billing": {
+    "billing_details": "Détails de facturation",
+    "first_name": "Prénom",
+    "last_name": "Nom",
+    "phone_number": "Numéro de téléphone",
+    "city": "Ville",
+    "address": "Adresse",
+    "address_placeholder": "Numéro de rue et nom"
+  },
+  "cart": {
+    "cart": "Panier",
+    "your_cart": "Votre Panier",
+    "clear_cart": "Vider le panier",
+    "empty_cart": "Votre panier est vide !",
+    "return_to_shop": "Retour à la boutique",
+    "product": "Produit",
+    "price": "Prix",
+    "quantity": "Quantité",
+    "total": "Total",
+    "subtotal": "Sous-total",
+    "delivery_fee_calc": "Les frais de livraison sont calculés à la caisse.",
+    "process_to_checkout": "Passer à la caisse",
+    "cart_view": "Voir le panier",
+    "checkout": "Caisse",
+    "order_summary": "Résumé de la commande",
+    "continue_shopping": "Continuer vos achats",
+    "action": "Action"
+  }
+}

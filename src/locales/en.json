@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "categories": "Categories",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "header": {
+    "search_placeholder": "Search..."
+  },
+  "products": {
+    "categories": "Categories",
+    "all_categories": "All Categories",
+    "latest": "Latest Products",
+    "best_selling": "Best Selling",
+    "old": "Old Products"
+  },
+  "headings": {
+    "categories": "Categories",
+    "browse_by_category": "Browse by Category",
+    "this_weeks": "This Week’s",
+    "new_arrivals": "New Arrivals",
+    "best_sellers": "Best Sellers",
+    "our_shops": "Our Shops",
+    "find_us_locations": "Find us at these locations.",
+    "this_month": "This Month"
+  },
+  "buttons": {
+    "buy_now": "Buy Now",
+    "grab_now": "Grab Now",
+    "add_to_cart": "Add to Cart",
+    "view_all": "View All"
+  },
+  "hero": {
+    "limited_time_offer": "limited time offer"
+  },
+  "checkout": {
+    "success_title": "Success!",
+    "success_message": "We'll contact you soon regarding your order.",
+    "checkout_title": "Checkout",
+    "your_order": "Your Order",
+    "product": "Product",
+    "subtotal": "Subtotal",
+    "delivery_fee": "Delivery Fee",
+    "total": "Total",
+    "processing": "Processing...",
+    "process_to_checkout": "Process to Checkout",
+    "cart_empty": "Your cart is empty.",
+    "fill_required": "Please fill in all required fields.",
+    "other_notes": "Other Notes (optional)",
+    "notes_placeholder": "Notes about your order, e.g. special notes for delivery."
+  },
+  "billing": {
+    "billing_details": "Billing details",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "phone_number": "Phone Number",
+    "city": "City",
+    "address": "Address",
+    "address_placeholder": "House number and street name"
+  },
+  "cart": {
+    "cart": "Cart",
+    "your_cart": "Your Cart",
+    "clear_cart": "Clear Shopping Cart",
+    "empty_cart": "Your cart is empty!",
+    "return_to_shop": "Return to Shop",
+    "product": "Product",
+    "price": "Price",
+    "quantity": "Quantity",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "delivery_fee_calc": "Delivery fee is calculated at checkout.",
+    "process_to_checkout": "Process to Checkout",
+    "cart_view": "Cart View",
+    "checkout": "Checkout",
+    "order_summary": "Order Summary",
+    "continue_shopping": "Continue Shopping",
+    "action": "Action"
+  }
+}

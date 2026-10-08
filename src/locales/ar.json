@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "shop": "المتجر",
+    "categories": "الفئات",
+    "blog": "المدونة",
+    "contact": "اتصل بنا"
+  },
+  "header": {
+    "search_placeholder": "بحث..."
+  },
+  "products": {
+    "categories": "الفئات",
+    "all_categories": "جميع الفئات",
+    "latest": "أحدث المنتجات",
+    "best_selling": "الأكثر مبيعا",
+    "old": "منتجات قديمة"
+  },
+  "headings": {
+    "categories": "الفئات",
+    "browse_by_category": "تصفح حسب الفئة",
+    "this_weeks": "هذا الأسبوع",
+    "new_arrivals": "وصل حديثاً",
+    "best_sellers": "الأكثر مبيعاً",
+    "our_shops": "متاجرنا",
+    "find_us_locations": "تجدنا في هذه المواقع.",
+    "this_month": "هذا الشهر"
+  },
+  "buttons": {
+    "buy_now": "اشتري الآن",
+    "grab_now": "احصل عليه الآن",
+    "add_to_cart": "أضف إلى السلة",
+    "view_all": "عرض الكل"
+  },
+  "hero": {
+    "limited_time_offer": "عرض لفترة محدودة"
+  },
+  "checkout": {
+    "success_title": "نجاح!",
+    "success_message": "سنتصل بك قريبًا بخصوص طلبك.",
+    "checkout_title": "الدفع",
+    "your_order": "طلبك",
+    "product": "المنتج",
+    "subtotal": "المجموع الفرعي",
+    "delivery_fee": "رسوم التوصيل",
+    "total": "المجموع",
+    "processing": "جاري المعالجة...",
+    "process_to_checkout": "إتمام الطلب",
+    "cart_empty": "عربة التسوق فارغة.",
+    "fill_required": "يرجى ملء جميع الحقول المطلوبة.",
+    "other_notes": "ملاحظات أخرى (اختياري)",
+    "notes_placeholder": "ملاحظات حول طلبك، مثلاً ملاحظات خاصة للتوصيل."
+  },
+  "billing": {
+    "billing_details": "تفاصيل الفاتورة",
+    "first_name": "الاسم الأول",
+    "last_name": "الاسم الأخير",
+    "phone_number": "رقم الهاتف",
+    "city": "المدينة",
+    "address": "العنوان",
+    "address_placeholder": "رقم المنزل واسم الشارع"
+  },
+  "cart": {
+    "cart": "سلة المشتريات",
+    "your_cart": "عربة التسوق الخاصة بك",
+    "clear_cart": "تفريغ سلة المشتريات",
+    "empty_cart": "عربة التسوق فارغة!",
+    "return_to_shop": "العودة إلى المتجر",
+    "product": "المنتج",
+    "price": "السعر",
+    "quantity": "الكمية",
+    "total": "المجموع",
+    "subtotal": "المجموع الفرعي",
+    "delivery_fee_calc": "يتم حساب رسوم التوصيل عند الدفع.",
+    "process_to_checkout": "إتمام الطلب",
+    "cart_view": "عرض السلة",
+    "checkout": "الدفع",
+    "order_summary": "ملخص الطلب",
+    "continue_shopping": "مواصلة التسوق",
+    "action": "إجراء"
+  }
+}
