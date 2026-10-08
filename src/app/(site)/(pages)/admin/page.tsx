@@ -81,25 +81,25 @@ type Tab = "products" | "categories" | "banners" | "sliders" | "side-banners" | 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
 async function uploadImage(file: File, directory: string, customFilename?: string): Promise<string | null> {
-  const formData = new FormData();
-  formData.append("file", file);
-  formData.append("directory", directory);
-  if (customFilename) {
-    formData.append("filename", customFilename);
-  }
+  const ext = file.name.split('.').pop() || 'png';
+  const filename = customFilename ? `${customFilename}.${ext}` : `${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`;
+  const filePath = `${directory}/${filename}`;
 
   try {
-    const res = await fetch("/api/upload", {
-      method: "POST",
-      body: formData,
-    });
-    const data = await res.json();
-    if (data.success) {
-      return data.url;
-    } else {
-      alert(`Upload error: ${data.error}`);
+    const { data, error } = await supabase.storage
+      .from('images') // Ensure you have an 'images' bucket in Supabase that is public
+      .upload(filePath, file, { upsert: true });
+
+    if (error) {
+      alert(`Upload error: ${error.message}`);
       return null;
     }
+
+    const { data: publicUrlData } = supabase.storage
+      .from('images')
+      .getPublicUrl(filePath);
+
+    return publicUrlData.publicUrl;
   } catch (err: any) {
     alert(`Upload error: ${err.message}`);
     return null;

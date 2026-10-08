@@ -79,9 +79,6 @@ const Header = () => {
                   className="w-auto h-auto max-h-[40px] max-w-[150px] object-contain"
                 />
               )}
-              <span className="text-xl font-bold inline-block text-dark">
-                aziziphone
-              </span>
             </Link>
 
             <div className="max-w-[475px] w-full">
