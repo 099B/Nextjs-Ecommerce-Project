@@ -3,8 +3,8 @@ import Error from "@/components/Error";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Error Page | aziziphone",
-  description: "This is Error Page for aziziphone",
+  title: "Error Page | yourtitle",
+  description: "This is Error Page for yourtitle",
   // other metadata
 };
 

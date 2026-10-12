@@ -73,7 +73,7 @@ const Header = () => {
               {storeSettings?.logo_url && (
                 <img
                   src={storeSettings.logo_url}
-                  alt={storeSettings?.store_name || "aziziphone"}
+                  alt={storeSettings?.store_name || "yourtitle"}
                   width="150"
                   height="40"
                   className="w-auto h-auto max-h-[40px] max-w-[150px] object-contain"

@@ -3,8 +3,8 @@ import Products from "@/components/Products";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Shop Page | aziziphone",
-  description: "This is Shop Page for aziziphone",
+  title: "Shop Page | yourtitle",
+  description: "This is Shop Page for yourtitle",
   // other metadata
 };
 

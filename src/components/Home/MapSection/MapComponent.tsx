@@ -13,10 +13,7 @@ L.Icon.Default.mergeOptions({
 });
 
 const locations = [
-  { id: 1, name: "AZIZI PHONE CENTER", lat: 34.2612967, lng: -6.5844379 },
-  { id: 2, name: "AZIZI PHONE II", lat: 34.2607633, lng: -6.590042 },
-  { id: 3, name: "AZIZI PHONE 3", lat: 34.2589887, lng: -6.5843526 },
-  { id: 4, name: "AZIZI PHONE 4", lat: 34.2612242, lng: -6.5928359 },
+  { id: 4, name: "London", lat: 51.5286416, lng: -0.1015987 },
 ];
 
 const MapComponent = () => {

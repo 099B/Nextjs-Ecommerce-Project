@@ -3,8 +3,8 @@ import Cart from "@/components/Cart";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Cart Page | aziziphone",
-  description: "This is Cart Page for aziziphone",
+  title: "Cart Page | yourtitle",
+  description: "This is Cart Page for yourtitle",
   // other metadata
 };
 
